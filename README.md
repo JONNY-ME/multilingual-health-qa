@@ -24,11 +24,12 @@ ID, TargetRLF1, TargetR1F1, TargetLLM
 
 ## Current Baseline
 
-Initial zero-shot run with `google/gemma-4-E4B-it`:
+Current public leaderboard experiment log:
 
 | Run | Model | Setup | ROUGE-L F1 | ROUGE-1 F1 | LLM Judge | Weighted PLB Score |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
 | `gemma4-e4b-zero-shot-v1` | `google/gemma-4-E4B-it` | Zero-shot, Colab GPU | 0.3663 | 0.6071 | 0.6133 | 0.5196 |
+| `gemma4-26b-a4b-zero-shot-v1` | `google/gemma-4-26B-A4B-it` | Zero-shot, Colab GPU | 0.3655 | 0.6277 | 0.7720 | 0.5682 |
 
 Runtime note: the run took about 3 hours and used roughly 15 GB RAM in the Colab environment.
 
